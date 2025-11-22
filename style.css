@@ -1,0 +1,109 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+ font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0px;
+}
+
+.navbar .judul a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .item a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.navbar .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar .judul a:hover {
+  color: rgb(112, 70, 112);
+}
+.navbar .logo a:hover {
+  color: rgb(112, 70, 112);
+}
+.navbar .item a:hover {
+  color: rgb(112, 70, 112);
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(/15151454_5570834.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero .textjudulhome {
+  padding: 10rem;
+  margin-bottom: 20rem;
+}
+.hero .textjudulhome h1 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#ffffff, #3801ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero .textjudulhome p {
+  color: white;
+  font-size: 14px;
+  text-align: left;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  text-decoration:none ;
+  border-radius: 5rem;
+  background: #24055e;
+  color: #fff;
+  padding: .9rem 3.5rem;
+  font-size: 1.7rem;
+}
+.aboutme {
+  background-color: #160d33;
+  height: 930px;
+  display: flex;
+}
+
+main .aboutme .abtimg img {
+  border-radius: 50rem;
+  margin: 10rem 10rem;
+}
+
+.abtcontent {
+  font-size: 20px;
+  text-align: left;
+  color: #fff;
+  border-radius: 1rem;
+  margin: 10rem 15rem;
+  
+}
+
+.aboutme p {
+  text-align: left;
+  color: #fff;
+  padding-top: 1rem;
+  font-size: 20px;
+}
+
