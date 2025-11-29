@@ -24,10 +24,10 @@
       </div>
 
       <div class="item">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Skills</a>
-        <a href="">Projects</a>
+        <a href="#Hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#project">Projects</a>
         <a href="">Contact</a>
       </div>
       <div class="logo">
@@ -37,49 +37,154 @@
       </div>
     </div>
 
-    <div class="hero">
-      <div class="textjudulhome">
-        <h1>Hello , Saya Aji</h1>
-        <br />
-        <p>
-          I am a Full stack Developer Excited in the internet on how to improve
-          a website
-        </p>
-        <a href="" class="btn" 0>mulai</a>
+    <section id="Hero">
+      <div class="hero">
+        <div class="textjudulhome">
+          <h1>Hello , Saya Aji</h1>
+          <br />
+          <p>
+            I am a Full stack Developer Excited in the internet on how to
+            improve a website
+          </p>
+          <a href="" download="Portofolio" class="btn" 0>Get started</a>
+        </div>
       </div>
-    </div>
+    </section>
 
     <main>
-      <div class="aboutme">
-        <div class="abtimg">
-          <img
-            src="https://i.pinimg.com/222x/c4/34/d8/c434d8c366517ca20425bdc9ad8a32de.jpg"
-            alt=""
-          />
-        </div>
-        <div class="abtcontent">
-          <h1>about me</h1>
+      <section id="about">
+        <div class="aboutme">
+          <div class="abtimg">
+            <img
+              src="https://media1.tenor.com/m/jKomhG1of70AAAAC/baby-smile-baby-speed.gif"
+              alt=""
+            />
+          </div>
+          <div class="abtcontent">
+            <h1>about me</h1>
 
-          <p>
-            Hi, I'm Aji Wafina a passionate Full Stack Developer with a strong
-            foundation in both front-end and back-end technologies. I specialize
-            in building scalable web applications, delivering clean and
-            efficient code. When I’m not coding, I’m usually exploring new tech
-            stacks, contributing to open source, or learning about software
-            architecture and system design. I'm currently looking for
-            opportunities where I can grow as a developer and work on impactful
-            projects that challenge me to keep improving.
-          </p>
+            <p>
+              Hi, I'm Aji Wafina a passionate Full Stack Developer with a strong
+              foundation in both front-end and back-end technologies. I
+              specialize in building scalable web applications, delivering clean
+              and efficient code. When I’m not coding, I’m usually exploring new
+              tech stacks, contributing to open source, or learning about
+              software architecture and system design. I'm currently looking for
+              opportunities where I can grow as a developer and work on
+              impactful projects that challenge me to keep improving.
+            </p>
+          </div>
         </div>
-      </div>
+      </section>
 
-      <div class="skills">
-        <div class="cardskill"></div>
-      </div>
+      <section id="Skills">
+        <div class="skillpage">
+          <div class="sskills">
+            <h1>Skills</h1>
+          </div>
+
+          <div class="myskills">
+            <div class="cardskill">
+              <img src="/img/typescript.png" alt="" />
+              <p>Typescript</p>
+            </div>
+
+            <div class="cardskill">
+              <img src="/img/html.png" alt="" />
+              <p>Html</p>
+            </div>
+
+            <div class="cardskill">
+              <img src="/img/css-3.png" alt="" />
+              <p>Css</p>
+            </div>
+
+            <div class="cardskill">
+              <img src="/img/js.png" alt="" />
+              <p>Javascript</p>
+            </div>
+
+            <div class="cardskill">
+              <img src="/img/figma.png" alt="" />
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section class="projects" id="project">
+  <h1 class="heading">Project</h1>
+
+  <div class="project-box">
+
+    <div class="project-card">
+      <img src="/img/typescript.png" alt="">
+      <h3>Project 1</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="https://github.com/wafina827" class="btn">Review Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="/img/default.png" alt="">
+      <h3>Project 2</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="https://formspree.io/forms/mqaoovpz/overview" class="btn">Review Project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="/img/default.png" alt="">
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <a href="https://web.whatsapp.com/" class="btn">Review Project</a>
+    </div>
+
+  </div>
+</section>
+
+<section>
+  <div class="contactpage">
+    <h1 class="contacts">Contact Me</h1>
+    <div class="form">
+          <form action="https://formspree.io/f/mqaoovpz" method="POST">
+            <label>
+              <input
+                id="name"
+                class="textbok"
+                type="text"
+                name="Nama"
+                placeholder="  Enter Your Name"
+                required
+              />
+              <br />
+              <input
+                id="mail"
+                class="textbok"
+                type="email"
+                name="Email"
+                placeholder="  Enter Your Email"
+                required
+              />
+              <br/>
+            <label>
+              <textarea
+                id="msg"
+                class="Mesage"
+                name="message"
+                cols="70"
+                rows="12"
+              ></textarea
+              ><br />
+            </label>
+            <br />
+            <button id="button" class="enter" type="submit">SEND</button>
+          </form>
+        </div>
+  </div>
+</section>
     </main>
-
+    
     <script>
       feather.replace();
     </script>
   </body>
-</html>
+  </html>

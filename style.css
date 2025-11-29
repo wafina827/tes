@@ -2,7 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
- font-family: "Archivo", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
@@ -59,7 +59,7 @@
   margin-bottom: 20rem;
 }
 .hero .textjudulhome h1 {
-  font-size: 30px;
+  font-size: 40px;
   background: -webkit-linear-gradient(#ffffff, #3801ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -67,37 +67,43 @@
 
 .hero .textjudulhome p {
   color: white;
-  font-size: 14px;
+  font-size: 24px;
   text-align: left;
 }
 .btn {
   display: inline-block;
   margin-top: 1rem;
-  text-decoration:none ;
+  text-decoration: none;
   border-radius: 5rem;
   background: #24055e;
   color: #fff;
-  padding: .9rem 3.5rem;
+  padding: 0.9rem 3.5rem;
   font-size: 1.7rem;
 }
 .aboutme {
   background-color: #160d33;
-  height: 930px;
+  height: 950px;
   display: flex;
 }
 
 main .aboutme .abtimg img {
   border-radius: 50rem;
-  margin: 10rem 10rem;
+  margin: 20rem 2rem;
+  margin-left: 10rem;
 }
 
+.abtcontent h1 {
+  background: -webkit-linear-gradient(#ffffff, #3801ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .abtcontent {
   font-size: 20px;
   text-align: left;
   color: #fff;
   border-radius: 1rem;
-  margin: 10rem 15rem;
-  
+  padding-top: 21rem;
+  padding-right: 40rem;
 }
 
 .aboutme p {
@@ -107,3 +113,192 @@ main .aboutme .abtimg img {
   font-size: 20px;
 }
 
+.skillpage {
+  background-color: #1c0547;
+  padding: 5rem 0;
+  height: 950px;
+}
+
+.sskills h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 3rem;
+}
+
+.myskills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 20px 10%;
+}
+
+.cardskill {
+  background: #24055e;
+  width: 160px;
+  height: 180px;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.cardskill img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.cardskill p {
+  color: #fff;
+  font-size: 18px;
+  margin: 0;
+}
+
+.cardskill:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.projects {
+  background-color: #160d33;
+  color: #fff;
+}
+
+.heading {
+  color: #fff;
+  text-align: center;
+  padding-top: 10rem;
+  font-size: 2rem;
+}
+
+.project-box {
+  display: flex;
+  place-items: center;
+  gap: 3rem;
+  row-gap: 5rem;
+  height: 780px;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1c0547;
+  border: 2px solid #1c0547;
+  border-radius: 3rem;
+  gap: 2rem;
+  padding: 5rem 2rem;
+  overflow: hidden;
+  box-shadow: 0 0 5px #1c0547;
+  transition: 0.3s ease;
+  width: 500px;
+  height: 600px;
+}
+
+.project-card:hover {
+  box-shadow: 0 0 25px #1c0547 0 0 50px #1c0547;
+
+  transform: scale(1.02);
+}
+
+.project-card img {
+  max-width: 300px;
+  border-radius: 2em;
+  object-fit: cover;
+}
+
+.project-card h3 {
+  font-size: 3rem;
+}
+
+.project-card p {
+  font-size: 1.6rem;
+}
+
+.contactpage {
+  background-color: #1c0547;
+  height: 950px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts {
+  padding: 10, 0px;
+  font-size: x-large;
+  font-weight: 800;
+  text-shadow: #bdd8f1;
+  color: #bdd8f1;
+}
+
+.form {
+  box-sizing: border-box;
+  width: 50%;
+  min-width: 400px;
+  height: 500px;
+  background-color: #12182a;
+  border-radius: 25px;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textbok {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: white;
+  margin-bottom: 15px;
+  padding: 0 10px;
+  font-size: 18px;
+  color: #214177;
+}
+
+.mesage {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+  background: white;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 18px;
+  color: #214177;
+  resize: vertical;
+}
+
+.enter {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #214177;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.enter:hover {
+  background-color: #1a3a5c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
