@@ -236,7 +236,7 @@
   font-size: x-large;
   font-weight: 800;
   text-shadow: #ffffff;
-  color: #61A9FF;
+  color: #61a9ff;
   text-align: center;
 }
 
@@ -285,7 +285,7 @@
   height: 40px;
   border-radius: 10px;
   border: 1px solid #000000;
-  background-color: #4C6EF5;
+  background-color: #4c6ef5;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -297,7 +297,7 @@
 }
 
 footer {
-  background-color: #2E3440;
+  background-color: #2e3440;
   padding: 30px;
 }
 
@@ -314,7 +314,6 @@ footer .logo a {
 footer p {
   color: #fff;
   font-size: 17px;
-
 }
 footer .isicontact {
   display: flex;
@@ -379,9 +378,10 @@ footer .spacbtween {
     padding-bottom: 5rem;
   }
   main .aboutme .abtimg img {
+    padding-top: 20px;
     margin: 5rem 0 2rem 0;
-    width: 70%;
-    border-radius: 9rem;
+    width: 50%;
+    border-radius: 5rem;
     margin-left: 1rem;
   }
   .abtcontent {
@@ -443,7 +443,6 @@ footer .spacbtween {
     width: 100%;
   }
 
-  /* === 7. Footer === */
   footer .isi {
     padding-left: 0;
     padding: 20px 10px;
