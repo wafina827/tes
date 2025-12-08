@@ -300,6 +300,9 @@ footer {
   background-color: #2e3440;
   padding: 30px;
 }
+footer .isi .isicontact a {
+  color: #ffffff;
+}
 
 footer .isi {
   padding-left: 5rem;
