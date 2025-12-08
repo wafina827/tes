@@ -462,30 +462,6 @@ footer .spacbtween {
   }
 }
 
-@media (max-width: 480px) {
-  .hero .textjudulhome h1 {
-    font-size: 28px;
-  }
-
-  main .aboutme .abtimg img {
-    width: 80%;
-  }
-
-  .myskills {
-    gap: 10px;
-  }
-  .cardskill {
-    width: 110px;
-    height: 130px;
-  }
-  .cardskill p {
-    font-size: 14px;
-  }
-
-  .project-card {
-    padding: 2rem 1rem;
-  }
-}
 
 html {
   scroll-behavior: smooth;
