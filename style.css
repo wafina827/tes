@@ -241,7 +241,7 @@ main .aboutme .abtimg img {
 
 .form {
   box-sizing: border-box;
-  width: 50%;
+  width: 640px;
   min-width: 400px;
   height: 500px;
   background-color: #12182a;
