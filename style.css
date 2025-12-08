@@ -81,10 +81,11 @@
   display: flex;
 }
 
-main .aboutme .abtimg img {
+.aboutme .abtimg img {
   border-radius: 50rem;
   margin: 20rem 2rem;
   margin-left: 10rem;
+  width: 18rem;
 }
 
 .abtcontent h1 {
@@ -235,7 +236,7 @@ main .aboutme .abtimg img {
   font-size: x-large;
   font-weight: 800;
   text-shadow: #ffffff;
-  color: #ffffff;
+  color: #61A9FF;
   text-align: center;
 }
 
@@ -263,7 +264,7 @@ main .aboutme .abtimg img {
   margin-bottom: 15px;
   padding: 0 10px;
   font-size: 18px;
-  color: #214177;
+  color: #ffffff;
 }
 
 .mesage {
@@ -284,7 +285,7 @@ main .aboutme .abtimg img {
   height: 40px;
   border-radius: 10px;
   border: 1px solid #000000;
-  background-color: #214177;
+  background-color: #4C6EF5;
   color: white;
   font-size: 16px;
   cursor: pointer;
@@ -296,7 +297,7 @@ main .aboutme .abtimg img {
 }
 
 footer {
-  background-color: #2f3750;
+  background-color: #2E3440;
   padding: 30px;
 }
 
@@ -313,7 +314,7 @@ footer .logo a {
 footer p {
   color: #fff;
   font-size: 17px;
-  text-align: center;
+
 }
 footer .isicontact {
   display: flex;
@@ -324,6 +325,11 @@ footer .isicontact p {
 }
 footer .isicontact img {
   width: 20px;
+}
+
+footer .spacbtween {
+  display: flex;
+  justify-content: space-between;
 }
 
 @media (max-width: 768px) {
@@ -367,7 +373,7 @@ footer .isicontact img {
 
   .aboutme {
     flex-direction: column;
-    height: auto;
+    height: 400;
     min-height: 80vh;
     align-items: center;
     padding-bottom: 5rem;
@@ -375,7 +381,8 @@ footer .isicontact img {
   main .aboutme .abtimg img {
     margin: 5rem 0 2rem 0;
     width: 70%;
-    border-radius: 1rem;
+    border-radius: 9rem;
+    margin-left: 1rem;
   }
   .abtcontent {
     padding: 0 2rem;
@@ -391,8 +398,8 @@ footer .isicontact img {
   }
 
   .skillpage {
-    height: auto;
-    padding: 3rem 0;
+    height: 300;
+    padding: 6rem 0;
   }
   .myskills {
     flex-wrap: wrap;
@@ -423,7 +430,7 @@ footer .isicontact img {
   }
 
   .contactpage {
-    height: auto;
+    height: 200;
     padding: 5rem 0;
   }
   .form {
